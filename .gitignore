@@ -1,0 +1,15 @@
+# Local Python environments and generated Python files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter-generated checkpoints
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+*.env
+!.env.example
+
+# macOS Finder metadata
+.DS_Store
