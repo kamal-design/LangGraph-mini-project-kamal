@@ -1,0 +1,10 @@
+Press Cmd + Shift + P
+Run Developer: Reload Window
+Reopen LangGraph_Router.ipynb
+Click Select Kernel (top-right)
+Choose Python (LangGraph Mini)
+— or choose .venv/bin/python from Python Environments.
+Run the cell with Shift + Enter.
+
+created local Environments
+/Volumes/work/kamal/LangGraph-mini-project/.venv
