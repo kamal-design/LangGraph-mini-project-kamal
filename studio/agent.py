@@ -67,7 +67,7 @@ builder.add_conditional_edges(
     # If the latest message (result) from assistant is a not a tool call -> tools_condition routes to END
     tools_condition,
 )
-builder.add_edge("tools", "assistant")
+builder.add_edge("tools", "assistant") # continue to Loop back to assistant after tool execution
 
 # Compile graph
 graph = builder.compile()

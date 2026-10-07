@@ -6,5 +6,25 @@ Choose Python (LangGraph Mini)
 — or choose .venv/bin/python from Python Environments.
 Run the cell with Shift + Enter.
 
+
 created local Environments
 /Volumes/work/kamal/LangGraph-mini-project/.venv
+
+langgraph.json file added
+agent file call :LangGraph
+pkg or toolsfile call ["."]
+
+add UV
+
+add langgraph inmen this project
+uv add "langgraph-cli[inmen]"
+
+go to move cd studio
+source ~/.bashrc
+cd /Volumes/work/kamal/LangGraph-mini-project/studio
+langgraph dev
+
+
+API: http://127.0.0.1:2024
+- 🎨 Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024
+- 📚 API Docs: http://127.0.0.1:2024/docs
