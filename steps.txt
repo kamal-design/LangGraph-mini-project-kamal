@@ -12,7 +12,7 @@ created local Environments
 
 langgraph.json file added
 agent file call :LangGraph
-pkg or toolsfile call ["."]
+uv run streamlit run main.pypkg or toolsfile call ["."]
 
 add UV
 
@@ -28,3 +28,46 @@ langgraph dev
 API: http://127.0.0.1:2024
 - 🎨 Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024
 - 📚 API Docs: http://127.0.0.1:2024/docs
+
+
+
+
+Run the Streamlit app (first setup, or after dependencies change)
+
+cd /Volumes/work/kamal/LangGraph-mini-project/src
+uv sync --locked
+
+Run the project after setup
+
+cd /Volumes/work/kamal/LangGraph-mini-project/src
+uv run --no-sync streamlit run main.py
+
+Optional: activate the environment for direct Python commands
+source .venv/bin/activate
+
+uv sync creates .venv automatically; do not recreate it each time.
+Only use --no-sync after uv sync finishes successfully.
+
+If downloading fails with "dns error" for files.pythonhosted.org:
+Your network cannot resolve the package download host.
+Check connectivity with:
+curl -I https://files.pythonhosted.org
+Reconnect your network or try another network, then retry uv sync --locked.
+Changing grpcio versions or recreating .venv does not fix DNS failures.
+
+
+
+http://localhost:8501/
+
+check view PDF file or add
+then DataBase sync click default show error
+
+chunks added in vector DB Ingested 478 documents!
+
+then DataBase status
+Vector database exists
+
+
+start chat
+
+what are the symptoms of malaria
